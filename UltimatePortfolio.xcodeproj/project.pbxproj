@@ -11,6 +11,11 @@
 		D89DEAC429E603340040339D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89DEAC329E603340040339D /* ContentView.swift */; };
 		D89DEAC629E603350040339D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89DEAC529E603350040339D /* Assets.xcassets */; };
 		D89DEACA29E603350040339D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89DEAC929E603350040339D /* Preview Assets.xcassets */; };
+		D89DEAD229E7000C0040339D /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D89DEAD029E7000B0040339D /* Main.xcdatamodeld */; };
+		D89DEAD429E702600040339D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89DEAD329E702600040339D /* DataController.swift */; };
+		D89DEAD729E7590C0040339D /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89DEAD629E7590C0040339D /* SidebarView.swift */; };
+		D89DEAD929E759150040339D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89DEAD829E759150040339D /* DetailView.swift */; };
+		D89DEADB29E760C90040339D /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89DEADA29E760C90040339D /* Filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,12 @@
 		D89DEAC529E603350040339D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D89DEAC729E603350040339D /* UltimatePortfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePortfolio.entitlements; sourceTree = "<group>"; };
 		D89DEAC929E603350040339D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D89DEAD129E7000B0040339D /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		D89DEAD329E702600040339D /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		D89DEAD529E712790040339D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D89DEAD629E7590C0040339D /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		D89DEAD829E759150040339D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D89DEADA29E760C90040339D /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +63,14 @@
 		D89DEAC029E603340040339D /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				D89DEAD529E712790040339D /* Info.plist */,
 				D89DEAC129E603340040339D /* UltimatePortfolioApp.swift */,
+				D89DEADA29E760C90040339D /* Filter.swift */,
+				D89DEAD329E702600040339D /* DataController.swift */,
+				D89DEAD629E7590C0040339D /* SidebarView.swift */,
 				D89DEAC329E603340040339D /* ContentView.swift */,
+				D89DEAD829E759150040339D /* DetailView.swift */,
+				D89DEAD029E7000B0040339D /* Main.xcdatamodeld */,
 				D89DEAC529E603350040339D /* Assets.xcassets */,
 				D89DEAC729E603350040339D /* UltimatePortfolio.entitlements */,
 				D89DEAC829E603350040339D /* Preview Content */,
@@ -139,6 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D89DEADB29E760C90040339D /* Filter.swift in Sources */,
+				D89DEAD229E7000C0040339D /* Main.xcdatamodeld in Sources */,
+				D89DEAD929E759150040339D /* DetailView.swift in Sources */,
+				D89DEAD429E702600040339D /* DataController.swift in Sources */,
+				D89DEAD729E7590C0040339D /* SidebarView.swift in Sources */,
 				D89DEAC429E603340040339D /* ContentView.swift in Sources */,
 				D89DEAC229E603340040339D /* UltimatePortfolioApp.swift in Sources */,
 			);
@@ -265,10 +287,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
-				DEVELOPMENT_TEAM = KH4ARC9CCG;
+				DEVELOPMENT_TEAM = ZH5BW37FK7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -284,7 +307,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.uhlalbert.training.UltimatePortfolio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enbright.UltimatePortfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -303,10 +326,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
-				DEVELOPMENT_TEAM = KH4ARC9CCG;
+				DEVELOPMENT_TEAM = ZH5BW37FK7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -322,7 +346,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.uhlalbert.training.UltimatePortfolio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enbright.UltimatePortfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -354,6 +378,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D89DEAD029E7000B0040339D /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D89DEAD129E7000B0040339D /* Main.xcdatamodel */,
+			);
+			currentVersion = D89DEAD129E7000B0040339D /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D89DEAB629E603340040339D /* Project object */;
 }
