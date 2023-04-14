@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D86A12F929E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */; };
+		D86A12FB29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A12FA29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift */; };
 		D89DEAC229E603340040339D /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89DEAC129E603340040339D /* UltimatePortfolioApp.swift */; };
 		D89DEAC429E603340040339D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89DEAC329E603340040339D /* ContentView.swift */; };
 		D89DEAC629E603350040339D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89DEAC529E603350040339D /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		D86A12FA29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		D89DEABE29E603340040339D /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89DEAC129E603340040339D /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		D89DEAC329E603340040339D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 				D89DEAD629E7590C0040339D /* SidebarView.swift */,
 				D89DEAC329E603340040339D /* ContentView.swift */,
 				D89DEAD829E759150040339D /* DetailView.swift */,
+				D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */,
+				D86A12FA29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift */,
 				D89DEAD029E7000B0040339D /* Main.xcdatamodeld */,
 				D89DEAC529E603350040339D /* Assets.xcassets */,
 				D89DEAC729E603350040339D /* UltimatePortfolio.entitlements */,
@@ -156,8 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86A12FB29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift in Sources */,
 				D89DEADB29E760C90040339D /* Filter.swift in Sources */,
 				D89DEAD229E7000C0040339D /* Main.xcdatamodeld in Sources */,
+				D86A12F929E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift in Sources */,
 				D89DEAD929E759150040339D /* DetailView.swift in Sources */,
 				D89DEAD429E702600040339D /* DataController.swift in Sources */,
 				D89DEAD729E7590C0040339D /* SidebarView.swift in Sources */,
