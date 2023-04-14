@@ -62,6 +62,9 @@ struct IssueView: View {
                         .animation(nil, value: issue.issueTagsList)
                 }
                 .disabled(issue.isDeleted)
+                .onReceive(issue.objectWillChange) { _ in
+                    dataController.queueSave()
+                }
             }
         }
         
