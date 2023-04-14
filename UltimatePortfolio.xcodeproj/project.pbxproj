@@ -19,6 +19,8 @@
 		D89DEAD929E759150040339D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89DEAD829E759150040339D /* DetailView.swift */; };
 		D89DEADB29E760C90040339D /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89DEADA29E760C90040339D /* Filter.swift */; };
 		D8CBCF3629E998560006C930 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBCF3529E998560006C930 /* IssueRow.swift */; };
+		D8CBCF3829E9A5230006C930 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBCF3729E9A5230006C930 /* IssueView.swift */; };
+		D8CBCF3A29E9A52E0006C930 /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBCF3929E9A52E0006C930 /* NoIssueView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		D89DEAD829E759150040339D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D89DEADA29E760C90040339D /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		D8CBCF3529E998560006C930 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
+		D8CBCF3729E9A5230006C930 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
+		D8CBCF3929E9A52E0006C930 /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				D89DEAC329E603340040339D /* ContentView.swift */,
 				D8CBCF3529E998560006C930 /* IssueRow.swift */,
 				D89DEAD829E759150040339D /* DetailView.swift */,
+				D8CBCF3729E9A5230006C930 /* IssueView.swift */,
+				D8CBCF3929E9A52E0006C930 /* NoIssueView.swift */,
 				D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */,
 				D86A12FA29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift */,
 				D89DEAD029E7000B0040339D /* Main.xcdatamodeld */,
@@ -173,6 +179,8 @@
 				D89DEAD429E702600040339D /* DataController.swift in Sources */,
 				D89DEAD729E7590C0040339D /* SidebarView.swift in Sources */,
 				D89DEAC429E603340040339D /* ContentView.swift in Sources */,
+				D8CBCF3829E9A5230006C930 /* IssueView.swift in Sources */,
+				D8CBCF3A29E9A52E0006C930 /* NoIssueView.swift in Sources */,
 				D8CBCF3629E998560006C930 /* IssueRow.swift in Sources */,
 				D89DEAC229E603340040339D /* UltimatePortfolioApp.swift in Sources */,
 			);
