@@ -18,7 +18,7 @@ struct Filter: Identifiable, Hashable {
         tag?.tagActiveIssues.count ?? 0
     }
     
-    static var all = Filter(id: UUID(), name: "All Issues", icon: "tray")
+    static var all = Filter(id: UUID(), name: "All issues", icon: "tray")
     static var recent = Filter(id: UUID(), name: "Recent issues", icon: "clock", minModificationDate: .now.addingTimeInterval(86400 * -7))
     
     func has(into hasher: inout Hasher) {
