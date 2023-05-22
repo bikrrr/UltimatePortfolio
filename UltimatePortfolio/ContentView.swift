@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var dataController: DataController
-    
+
     var body: some View {
         List(selection: $dataController.selectedIssue) {
             ForEach(dataController.issuesForSelectedFilter()) { issue in
@@ -23,10 +23,10 @@ struct ContentView: View {
         }
         .toolbar(content: ContentViewToolbar.init)
     }
-    
+
     func delete(_ offsets: IndexSet) {
         let issues = dataController.issuesForSelectedFilter()
-        
+
         for offset in offsets {
             let item = issues[offset]
             dataController.delete(item)

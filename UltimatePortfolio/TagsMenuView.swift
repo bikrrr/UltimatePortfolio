@@ -10,7 +10,7 @@ import SwiftUI
 struct TagsMenuView: View {
     @EnvironmentObject var dataController: DataController
     @ObservedObject var issue: Issue
-    
+
     var body: some View {
         Menu {
             // show selected tags first
@@ -21,13 +21,13 @@ struct TagsMenuView: View {
                     Label(tag.tagName, systemImage: "checkmark")
                 }
             }
-            
+
             // no show unselected tags
             let otherTags = dataController.missingTags(from: issue)
-            
+
             if otherTags.isEmpty == false {
                 Divider()
-                
+
                 Section("Add Tags") {
                     ForEach(otherTags) { tag in
                         Button(tag.tagName) {
@@ -51,4 +51,3 @@ struct TagsMenuView_Previews: PreviewProvider {
             .environmentObject(DataController(inMemory: true))
     }
 }
-
