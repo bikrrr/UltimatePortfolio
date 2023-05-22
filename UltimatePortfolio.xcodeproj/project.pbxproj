@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		D86A12F929E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */; };
 		D86A12FB29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A12FA29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift */; };
+		D8802F082A1BB4FF005AE9DA /* SidebarViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8802F072A1BB4FF005AE9DA /* SidebarViewToolbar.swift */; };
+		D8802F0A2A1BBAC1005AE9DA /* IssueViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8802F092A1BBAC1005AE9DA /* IssueViewToolbar.swift */; };
+		D8802F0C2A1BBB7E005AE9DA /* ContentViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8802F0B2A1BBB7E005AE9DA /* ContentViewToolbar.swift */; };
+		D8802F0E2A1BC0E4005AE9DA /* TagsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8802F0D2A1BC0E4005AE9DA /* TagsMenuView.swift */; };
+		D8802F102A1BC2D7005AE9DA /* SmartFilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8802F0F2A1BC2D7005AE9DA /* SmartFilterRow.swift */; };
+		D8802F122A1BC339005AE9DA /* UserFilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8802F112A1BC339005AE9DA /* UserFilterRow.swift */; };
 		D89DEAC229E603340040339D /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89DEAC129E603340040339D /* UltimatePortfolioApp.swift */; };
 		D89DEAC429E603340040339D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89DEAC329E603340040339D /* ContentView.swift */; };
 		D89DEAC629E603350040339D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89DEAC529E603350040339D /* Assets.xcassets */; };
@@ -33,6 +39,12 @@
 /* Begin PBXFileReference section */
 		D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		D86A12FA29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		D8802F072A1BB4FF005AE9DA /* SidebarViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewToolbar.swift; sourceTree = "<group>"; };
+		D8802F092A1BBAC1005AE9DA /* IssueViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueViewToolbar.swift; sourceTree = "<group>"; };
+		D8802F0B2A1BBB7E005AE9DA /* ContentViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewToolbar.swift; sourceTree = "<group>"; };
+		D8802F0D2A1BC0E4005AE9DA /* TagsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsMenuView.swift; sourceTree = "<group>"; };
+		D8802F0F2A1BC2D7005AE9DA /* SmartFilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFilterRow.swift; sourceTree = "<group>"; };
+		D8802F112A1BC339005AE9DA /* UserFilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFilterRow.swift; sourceTree = "<group>"; };
 		D89DEABE29E603340040339D /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89DEAC129E603340040339D /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		D89DEAC329E603340040339D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,11 +107,17 @@
 				D89DEADA29E760C90040339D /* Filter.swift */,
 				D89DEAD329E702600040339D /* DataController.swift */,
 				D89DEAD629E7590C0040339D /* SidebarView.swift */,
+				D8802F112A1BC339005AE9DA /* UserFilterRow.swift */,
+				D8802F0F2A1BC2D7005AE9DA /* SmartFilterRow.swift */,
+				D8802F072A1BB4FF005AE9DA /* SidebarViewToolbar.swift */,
 				D8B5242329EA2DBA007E0C41 /* Bundle-Decodable.swift */,
 				D89DEAC329E603340040339D /* ContentView.swift */,
+				D8802F0B2A1BBB7E005AE9DA /* ContentViewToolbar.swift */,
 				D8CBCF3529E998560006C930 /* IssueRow.swift */,
 				D89DEAD829E759150040339D /* DetailView.swift */,
 				D8CBCF3729E9A5230006C930 /* IssueView.swift */,
+				D8802F0D2A1BC0E4005AE9DA /* TagsMenuView.swift */,
+				D8802F092A1BBAC1005AE9DA /* IssueViewToolbar.swift */,
 				D8CBCF3929E9A52E0006C930 /* NoIssueView.swift */,
 				D8B5242929EA32CD007E0C41 /* Award.swift */,
 				D8B5242B29EA33E5007E0C41 /* AwardsView.swift */,
@@ -201,8 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D86A12FB29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift in Sources */,
+				D8802F0E2A1BC0E4005AE9DA /* TagsMenuView.swift in Sources */,
 				D8B5242A29EA32CD007E0C41 /* Award.swift in Sources */,
 				D8B5242C29EA33E5007E0C41 /* AwardsView.swift in Sources */,
+				D8802F102A1BC2D7005AE9DA /* SmartFilterRow.swift in Sources */,
 				D89DEADB29E760C90040339D /* Filter.swift in Sources */,
 				D89DEAD229E7000C0040339D /* Main.xcdatamodeld in Sources */,
 				D86A12F929E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift in Sources */,
@@ -210,10 +230,14 @@
 				D89DEAD929E759150040339D /* DetailView.swift in Sources */,
 				D89DEAD429E702600040339D /* DataController.swift in Sources */,
 				D89DEAD729E7590C0040339D /* SidebarView.swift in Sources */,
+				D8802F0C2A1BBB7E005AE9DA /* ContentViewToolbar.swift in Sources */,
 				D89DEAC429E603340040339D /* ContentView.swift in Sources */,
+				D8802F082A1BB4FF005AE9DA /* SidebarViewToolbar.swift in Sources */,
 				D8CBCF3829E9A5230006C930 /* IssueView.swift in Sources */,
 				D8CBCF3A29E9A52E0006C930 /* NoIssueView.swift in Sources */,
+				D8802F122A1BC339005AE9DA /* UserFilterRow.swift in Sources */,
 				D8CBCF3629E998560006C930 /* IssueRow.swift in Sources */,
+				D8802F0A2A1BBAC1005AE9DA /* IssueViewToolbar.swift in Sources */,
 				D89DEAC229E603340040339D /* UltimatePortfolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,8 +398,6 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Issue Tracker";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -384,12 +406,12 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.enbright.UltimatePortfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,8 +437,6 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Issue Tracker";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -425,12 +445,12 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.enbright.UltimatePortfolio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
