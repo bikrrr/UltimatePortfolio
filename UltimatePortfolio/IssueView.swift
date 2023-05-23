@@ -40,7 +40,12 @@ struct IssueView: View {
                         .font(.title2)
                         .foregroundStyle(.secondary)
 
-                    TextField("Description", text: $issue.issueContent, prompt: Text("Enter the issue description"), axis: .vertical)
+                    TextField(
+                        "Description",
+                        text: $issue.issueContent,
+                        prompt: Text("Enter the issue description"),
+                        axis: .vertical
+                    )
                 }
             }
         }
