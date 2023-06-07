@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D86A12F929E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */; };
-		D86A12FB29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A12FA29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift */; };
+		D86A12FB29E8C7E400AE35A7 /* Tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A12FA29E8C7E400AE35A7 /* Tag-CoreDataHelpers.swift */; };
 		D8802F082A1BB4FF005AE9DA /* SidebarViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8802F072A1BB4FF005AE9DA /* SidebarViewToolbar.swift */; };
 		D8802F0A2A1BBAC1005AE9DA /* IssueViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8802F092A1BBAC1005AE9DA /* IssueViewToolbar.swift */; };
 		D8802F0C2A1BBB7E005AE9DA /* ContentViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8802F0B2A1BBB7E005AE9DA /* ContentViewToolbar.swift */; };
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
-		D86A12FA29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		D86A12FA29E8C7E400AE35A7 /* Tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		D8802F072A1BB4FF005AE9DA /* SidebarViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewToolbar.swift; sourceTree = "<group>"; };
 		D8802F092A1BBAC1005AE9DA /* IssueViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueViewToolbar.swift; sourceTree = "<group>"; };
 		D8802F0B2A1BBB7E005AE9DA /* ContentViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewToolbar.swift; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		D89DEAC929E603350040339D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D89DEAD129E7000B0040339D /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		D89DEAD329E702600040339D /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
-		D89DEAD529E712790040339D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D89DEAD529E712790040339D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D89DEAD629E7590C0040339D /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		D89DEAD829E759150040339D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D89DEADA29E760C90040339D /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
@@ -102,34 +102,17 @@
 		D89DEAC029E603340040339D /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
-				D89DEAD529E712790040339D /* Info.plist */,
+				D8C2563B2A3140F8006AE93F /* Filters */,
+				D8C2563C2A314100006AE93F /* Issues */,
+				D8C2563D2A314106006AE93F /* Editing */,
+				D8C2563E2A31411C006AE93F /* Awards */,
+				D8C256382A313E96006AE93F /* Extensions */,
+				D8C256392A313EA6006AE93F /* Localization */,
+				D8C2563A2A313EB2006AE93F /* Configuration */,
 				D89DEAC129E603340040339D /* UltimatePortfolioApp.swift */,
-				D89DEADA29E760C90040339D /* Filter.swift */,
 				D89DEAD329E702600040339D /* DataController.swift */,
-				D89DEAD629E7590C0040339D /* SidebarView.swift */,
-				D8802F112A1BC339005AE9DA /* UserFilterRow.swift */,
-				D8802F0F2A1BC2D7005AE9DA /* SmartFilterRow.swift */,
-				D8802F072A1BB4FF005AE9DA /* SidebarViewToolbar.swift */,
-				D8B5242329EA2DBA007E0C41 /* Bundle-Decodable.swift */,
-				D89DEAC329E603340040339D /* ContentView.swift */,
-				D8802F0B2A1BBB7E005AE9DA /* ContentViewToolbar.swift */,
-				D8CBCF3529E998560006C930 /* IssueRow.swift */,
-				D89DEAD829E759150040339D /* DetailView.swift */,
-				D8CBCF3729E9A5230006C930 /* IssueView.swift */,
-				D8802F0D2A1BC0E4005AE9DA /* TagsMenuView.swift */,
-				D8802F092A1BBAC1005AE9DA /* IssueViewToolbar.swift */,
-				D8CBCF3929E9A52E0006C930 /* NoIssueView.swift */,
-				D8B5242929EA32CD007E0C41 /* Award.swift */,
-				D8B5242B29EA33E5007E0C41 /* AwardsView.swift */,
-				D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */,
-				D86A12FA29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift */,
-				D89DEAD029E7000B0040339D /* Main.xcdatamodeld */,
-				D8ACEFD32A002E15004658B9 /* Localizable.strings */,
-				D8ACEFD72A002F1A004658B9 /* Localizable.stringsdict */,
-				D8ACEFDB2A002FF7004658B9 /* Awards.json */,
 				D8B5242629EA322C007E0C41 /* Colors.xcassets */,
 				D89DEAC529E603350040339D /* Assets.xcassets */,
-				D89DEAC729E603350040339D /* UltimatePortfolio.entitlements */,
 				D89DEAC829E603350040339D /* Preview Content */,
 			);
 			path = UltimatePortfolio;
@@ -141,6 +124,79 @@
 				D89DEAC929E603350040339D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8C256382A313E96006AE93F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D8B5242329EA2DBA007E0C41 /* Bundle-Decodable.swift */,
+				D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */,
+				D86A12FA29E8C7E400AE35A7 /* Tag-CoreDataHelpers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D8C256392A313EA6006AE93F /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D8ACEFD32A002E15004658B9 /* Localizable.strings */,
+				D8ACEFD72A002F1A004658B9 /* Localizable.stringsdict */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		D8C2563A2A313EB2006AE93F /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D89DEAD529E712790040339D /* Info.plist */,
+				D89DEAD029E7000B0040339D /* Main.xcdatamodeld */,
+				D89DEAC729E603350040339D /* UltimatePortfolio.entitlements */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		D8C2563B2A3140F8006AE93F /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				D89DEADA29E760C90040339D /* Filter.swift */,
+				D89DEAD629E7590C0040339D /* SidebarView.swift */,
+				D8802F072A1BB4FF005AE9DA /* SidebarViewToolbar.swift */,
+				D8802F0F2A1BC2D7005AE9DA /* SmartFilterRow.swift */,
+				D8802F112A1BC339005AE9DA /* UserFilterRow.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		D8C2563C2A314100006AE93F /* Issues */ = {
+			isa = PBXGroup;
+			children = (
+				D89DEAC329E603340040339D /* ContentView.swift */,
+				D8802F0B2A1BBB7E005AE9DA /* ContentViewToolbar.swift */,
+				D8CBCF3529E998560006C930 /* IssueRow.swift */,
+			);
+			path = Issues;
+			sourceTree = "<group>";
+		};
+		D8C2563D2A314106006AE93F /* Editing */ = {
+			isa = PBXGroup;
+			children = (
+				D89DEAD829E759150040339D /* DetailView.swift */,
+				D8CBCF3729E9A5230006C930 /* IssueView.swift */,
+				D8802F092A1BBAC1005AE9DA /* IssueViewToolbar.swift */,
+				D8CBCF3929E9A52E0006C930 /* NoIssueView.swift */,
+				D8802F0D2A1BC0E4005AE9DA /* TagsMenuView.swift */,
+			);
+			path = Editing;
+			sourceTree = "<group>";
+		};
+		D8C2563E2A31411C006AE93F /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				D8B5242929EA32CD007E0C41 /* Award.swift */,
+				D8B5242B29EA33E5007E0C41 /* AwardsView.swift */,
+				D8ACEFDB2A002FF7004658B9 /* Awards.json */,
+			);
+			path = Awards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D86A12FB29E8C7E400AE35A7 /* tag-CoreDataHelpers.swift in Sources */,
+				D86A12FB29E8C7E400AE35A7 /* Tag-CoreDataHelpers.swift in Sources */,
 				D8802F0E2A1BC0E4005AE9DA /* TagsMenuView.swift in Sources */,
 				D8B5242A29EA32CD007E0C41 /* Award.swift in Sources */,
 				D8B5242C29EA33E5007E0C41 /* AwardsView.swift in Sources */,
@@ -412,7 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
+				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/Configuration/UltimatePortfolio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
@@ -420,7 +476,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
+				INFOPLIST_FILE = UltimatePortfolio/Configuration/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -451,7 +507,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/UltimatePortfolio.entitlements;
+				CODE_SIGN_ENTITLEMENTS = UltimatePortfolio/Configuration/UltimatePortfolio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UltimatePortfolio/Preview Content\"";
@@ -459,7 +515,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
+				INFOPLIST_FILE = UltimatePortfolio/Configuration/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
