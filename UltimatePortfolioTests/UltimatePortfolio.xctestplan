@@ -1,0 +1,47 @@
+{
+  "configurations" : [
+    {
+      "id" : "14BF8432-43DB-4A87-A02A-69463AA2DB0F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "commandLineArgumentEntries" : [
+      {
+        "argument" : "-com.apple.CoreData.SQLDebug 0",
+        "enabled" : false
+      },
+      {
+        "argument" : "-com.apple.CoreData.Logging.stderr 0"
+      },
+      {
+        "argument" : "-com.apple.CoreData.ConcurrencyDebug 0\n"
+      },
+      {
+        "argument" : " -com.apple.CoreData.CloudKitDebug 0"
+      },
+      {
+        "argument" : "-com.apple.CoreData.MigrationDebug 0"
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:UltimatePortfolio.xcodeproj",
+      "identifier" : "D89DEABD29E603340040339D",
+      "name" : "UltimatePortfolio"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:UltimatePortfolio.xcodeproj",
+        "identifier" : "D8C256422A3143B0006AE93F",
+        "name" : "UltimatePortfolioTests"
+      }
+    }
+  ],
+  "version" : 1
+}

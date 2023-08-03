@@ -31,10 +31,25 @@
 		D8B5242829EA322C007E0C41 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B5242629EA322C007E0C41 /* Colors.xcassets */; };
 		D8B5242A29EA32CD007E0C41 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5242929EA32CD007E0C41 /* Award.swift */; };
 		D8B5242C29EA33E5007E0C41 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5242B29EA33E5007E0C41 /* AwardsView.swift */; };
+		D8C256462A3143B0006AE93F /* UltimatePortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C256452A3143B0006AE93F /* UltimatePortfolioTests.swift */; };
+		D8C2564E2A314616006AE93F /* AssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C2564D2A314616006AE93F /* AssetTests.swift */; };
 		D8CBCF3629E998560006C930 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBCF3529E998560006C930 /* IssueRow.swift */; };
 		D8CBCF3829E9A5230006C930 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBCF3729E9A5230006C930 /* IssueView.swift */; };
 		D8CBCF3A29E9A52E0006C930 /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CBCF3929E9A52E0006C930 /* NoIssueView.swift */; };
+		D8DB686F2A7C1122006B530D /* TagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB686E2A7C1122006B530D /* TagTests.swift */; };
+		D8DB68712A7C18C7006B530D /* AwardsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB68702A7C18C7006B530D /* AwardsTest.swift */; };
+		D8DB68732A7C2E97006B530D /* DevelopmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB68722A7C2E97006B530D /* DevelopmentTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8C256472A3143B0006AE93F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D89DEAB629E603340040339D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D89DEABD29E603340040339D;
+			remoteInfo = UltimatePortfolio;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
@@ -67,13 +82,27 @@
 		D8B5242629EA322C007E0C41 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		D8B5242929EA32CD007E0C41 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		D8B5242B29EA33E5007E0C41 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		D8C256432A3143B0006AE93F /* UltimatePortfolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C256452A3143B0006AE93F /* UltimatePortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioTests.swift; sourceTree = "<group>"; };
+		D8C2564C2A3144B7006AE93F /* UltimatePortfolio.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UltimatePortfolio.xctestplan; sourceTree = "<group>"; };
+		D8C2564D2A314616006AE93F /* AssetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTests.swift; sourceTree = "<group>"; };
 		D8CBCF3529E998560006C930 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
 		D8CBCF3729E9A5230006C930 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
 		D8CBCF3929E9A52E0006C930 /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
+		D8DB686E2A7C1122006B530D /* TagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagTests.swift; sourceTree = "<group>"; };
+		D8DB68702A7C18C7006B530D /* AwardsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsTest.swift; sourceTree = "<group>"; };
+		D8DB68722A7C2E97006B530D /* DevelopmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopmentTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D89DEABB29E603340040339D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C256402A3143B0006AE93F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				D89DEAC029E603340040339D /* UltimatePortfolio */,
+				D8C256442A3143B0006AE93F /* UltimatePortfolioTests */,
 				D89DEABF29E603340040339D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				D89DEABE29E603340040339D /* UltimatePortfolio.app */,
+				D8C256432A3143B0006AE93F /* UltimatePortfolioTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,6 +230,19 @@
 			path = Awards;
 			sourceTree = "<group>";
 		};
+		D8C256442A3143B0006AE93F /* UltimatePortfolioTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8C2564C2A3144B7006AE93F /* UltimatePortfolio.xctestplan */,
+				D8C256452A3143B0006AE93F /* UltimatePortfolioTests.swift */,
+				D8C2564D2A314616006AE93F /* AssetTests.swift */,
+				D8DB68702A7C18C7006B530D /* AwardsTest.swift */,
+				D8DB68722A7C2E97006B530D /* DevelopmentTests.swift */,
+				D8DB686E2A7C1122006B530D /* TagTests.swift */,
+			);
+			path = UltimatePortfolioTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,6 +264,24 @@
 			productReference = D89DEABE29E603340040339D /* UltimatePortfolio.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D8C256422A3143B0006AE93F /* UltimatePortfolioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8C256492A3143B0006AE93F /* Build configuration list for PBXNativeTarget "UltimatePortfolioTests" */;
+			buildPhases = (
+				D8C2563F2A3143B0006AE93F /* Sources */,
+				D8C256402A3143B0006AE93F /* Frameworks */,
+				D8C256412A3143B0006AE93F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8C256482A3143B0006AE93F /* PBXTargetDependency */,
+			);
+			name = UltimatePortfolioTests;
+			productName = UltimatePortfolioTests;
+			productReference = D8C256432A3143B0006AE93F /* UltimatePortfolioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -232,6 +294,10 @@
 				TargetAttributes = {
 					D89DEABD29E603340040339D = {
 						CreatedOnToolsVersion = 14.3;
+					};
+					D8C256422A3143B0006AE93F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D89DEABD29E603340040339D;
 					};
 				};
 			};
@@ -250,6 +316,7 @@
 			projectRoot = "";
 			targets = (
 				D89DEABD29E603340040339D /* UltimatePortfolio */,
+				D8C256422A3143B0006AE93F /* UltimatePortfolioTests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,6 +332,13 @@
 				D8ACEFD92A002FF7004658B9 /* Awards.json in Resources */,
 				D89DEAC629E603350040339D /* Assets.xcassets in Resources */,
 				D8ACEFD52A002F1A004658B9 /* Localizable.stringsdict in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C256412A3143B0006AE93F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +395,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D8C2563F2A3143B0006AE93F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C2564E2A314616006AE93F /* AssetTests.swift in Sources */,
+				D8DB68712A7C18C7006B530D /* AwardsTest.swift in Sources */,
+				D8DB686F2A7C1122006B530D /* TagTests.swift in Sources */,
+				D8C256462A3143B0006AE93F /* UltimatePortfolioTests.swift in Sources */,
+				D8DB68732A7C2E97006B530D /* DevelopmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8C256482A3143B0006AE93F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D89DEABD29E603340040339D /* UltimatePortfolio */;
+			targetProxy = D8C256472A3143B0006AE93F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D8ACEFD32A002E15004658B9 /* Localizable.strings */ = {
@@ -541,6 +635,47 @@
 			};
 			name = Release;
 		};
+		D8C2564A2A3143B0006AE93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH4ARC9CCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uhlablert.training.UltimatePortfolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltimatePortfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UltimatePortfolio";
+			};
+			name = Debug;
+		};
+		D8C2564B2A3143B0006AE93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KH4ARC9CCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uhlablert.training.UltimatePortfolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltimatePortfolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UltimatePortfolio";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -558,6 +693,15 @@
 			buildConfigurations = (
 				D89DEACE29E603350040339D /* Debug */,
 				D89DEACF29E603350040339D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C256492A3143B0006AE93F /* Build configuration list for PBXNativeTarget "UltimatePortfolioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8C2564A2A3143B0006AE93F /* Debug */,
+				D8C2564B2A3143B0006AE93F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
