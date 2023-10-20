@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D80E8A402AD6E09600E3C8A5 /* SidebarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80E8A3F2AD6E09600E3C8A5 /* SidebarViewModel.swift */; };
+		D82A22C42AE2CFAF00AB926A /* DataController-Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A22C32AE2CFAF00AB926A /* DataController-Notifications.swift */; };
 		D82E40C02ACA1E8E00F03939 /* UltimatePortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82E40BF2ACA1E8E00F03939 /* UltimatePortfolioUITests.swift */; };
 		D82E40C22ACA1E8E00F03939 /* UltimatePortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82E40C12ACA1E8E00F03939 /* UltimatePortfolioUITestsLaunchTests.swift */; };
 		D86A12F929E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */; };
@@ -69,6 +70,7 @@
 
 /* Begin PBXFileReference section */
 		D80E8A3F2AD6E09600E3C8A5 /* SidebarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewModel.swift; sourceTree = "<group>"; };
+		D82A22C32AE2CFAF00AB926A /* DataController-Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataController-Notifications.swift"; sourceTree = "<group>"; };
 		D82E40BD2ACA1E8E00F03939 /* UltimatePortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82E40BF2ACA1E8E00F03939 /* UltimatePortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITests.swift; sourceTree = "<group>"; };
 		D82E40C12ACA1E8E00F03939 /* UltimatePortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				D8C2563A2A313EB2006AE93F /* Configuration */,
 				D89DEAC129E603340040339D /* UltimatePortfolioApp.swift */,
 				D89DEAD329E702600040339D /* DataController.swift */,
+				D82A22C32AE2CFAF00AB926A /* DataController-Notifications.swift */,
 				D8B5242629EA322C007E0C41 /* Colors.xcassets */,
 				D89DEAC529E603350040339D /* Assets.xcassets */,
 				D89DEAC829E603350040339D /* Preview Content */,
@@ -479,6 +482,7 @@
 				D8B5242C29EA33E5007E0C41 /* AwardsView.swift in Sources */,
 				D8802F102A1BC2D7005AE9DA /* SmartFilterRow.swift in Sources */,
 				D80E8A402AD6E09600E3C8A5 /* SidebarViewModel.swift in Sources */,
+				D82A22C42AE2CFAF00AB926A /* DataController-Notifications.swift in Sources */,
 				D89DEADB29E760C90040339D /* Filter.swift in Sources */,
 				D89DEAD229E7000C0040339D /* Main.xcdatamodeld in Sources */,
 				D86A12F929E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift in Sources */,
