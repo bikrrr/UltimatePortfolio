@@ -21,10 +21,18 @@ struct ContentView: View {
         .searchable(
             text: $viewModel.filterText,
             tokens: $viewModel.filterTokens,
-            suggestedTokens: .constant(viewModel.suggestedFilterTokens),
-            prompt: "Filter issues or type # to add tags"
-        ) { tag in
-            Text(tag.tagName)
+            prompt: "Filter issues or type # to add tags") { tag in
+                Text(tag.tagName)
+        }
+        .searchSuggestions {
+            ForEach(viewModel.dataController.suggestedFilterTokens) { token in
+                Button {
+                    viewModel.dataController.filterTokens.append(token)
+                    viewModel.filterText = ""
+                } label: {
+                    Text(token.tagName)
+                }
+            }
         }
         .toolbar(content: ContentViewToolbar.init)
     }
