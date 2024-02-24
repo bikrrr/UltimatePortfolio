@@ -11,6 +11,8 @@ struct ContentView: View {
     @Environment(\.requestReview) var requestReview
     @StateObject var viewModel: ViewModel
 
+    private let newIssueActivity = "com.enbright.UltimatePortfolio.newIssue"
+
     var body: some View {
         List(selection: $viewModel.selectedIssue) {
             ForEach(viewModel.dataController.issuesForSelectedFilter()) { issue in
@@ -24,20 +26,25 @@ struct ContentView: View {
             tokens: $viewModel.filterTokens,
             prompt: "Filter issues or type # to add tags") { tag in
                 Text(tag.tagName)
-        }
-        .searchSuggestions {
-            ForEach(viewModel.dataController.suggestedFilterTokens) { token in
-                Button {
-                    viewModel.dataController.filterTokens.append(token)
-                    viewModel.filterText = ""
-                } label: {
-                    Text(token.tagName)
+            }
+            .searchSuggestions {
+                ForEach(viewModel.dataController.suggestedFilterTokens) { token in
+                    Button {
+                        viewModel.dataController.filterTokens.append(token)
+                        viewModel.filterText = ""
+                    } label: {
+                        Text(token.tagName)
+                    }
                 }
             }
-        }
-        .toolbar(content: ContentViewToolbar.init)
-        .onAppear(perform: askForReview)
-        .onOpenURL(perform: openURL)
+            .toolbar(content: ContentViewToolbar.init)
+            .onAppear(perform: askForReview)
+            .onOpenURL(perform: openURL)
+            .userActivity(newIssueActivity) { activity in
+                activity.isEligibleForPrediction = true
+                activity.title = "New Issue"
+            }
+            .onContinueUserActivity(newIssueActivity, perform: resumeActivity)
     }
 
     init(dataController: DataController) {
@@ -55,6 +62,10 @@ struct ContentView: View {
         if url.absoluteString.contains("newIssue") {
             viewModel.dataController.newIssue()
         }
+    }
+
+    func resumeActivity(_ userActivity: NSUserActivity) {
+        viewModel.dataController.newIssue()
     }
 }
 
