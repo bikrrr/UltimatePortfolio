@@ -13,6 +13,8 @@
 		D82E40C22ACA1E8E00F03939 /* UltimatePortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82E40C12ACA1E8E00F03939 /* UltimatePortfolioUITestsLaunchTests.swift */; };
 		D86A12F929E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */; };
 		D86A12FB29E8C7E400AE35A7 /* Tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A12FA29E8C7E400AE35A7 /* Tag-CoreDataHelpers.swift */; };
+		D87FD44B2B897F3100304A38 /* DataController-StoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87FD44A2B897F3100304A38 /* DataController-StoreKit.swift */; };
+		D87FD44E2B89839A00304A38 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87FD44D2B89839A00304A38 /* StoreView.swift */; };
 		D8802F082A1BB4FF005AE9DA /* SidebarViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8802F072A1BB4FF005AE9DA /* SidebarViewToolbar.swift */; };
 		D8802F0A2A1BBAC1005AE9DA /* IssueViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8802F092A1BBAC1005AE9DA /* IssueViewToolbar.swift */; };
 		D8802F0C2A1BBB7E005AE9DA /* ContentViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8802F0B2A1BBB7E005AE9DA /* ContentViewToolbar.swift */; };
@@ -77,6 +79,9 @@
 		D82E40C82ACA220600F03939 /* UltimatePortfolioUITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UltimatePortfolioUITests.xctestplan; sourceTree = "<group>"; };
 		D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		D86A12FA29E8C7E400AE35A7 /* Tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		D87FD4492B897D6B00304A38 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		D87FD44A2B897F3100304A38 /* DataController-StoreKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataController-StoreKit.swift"; sourceTree = "<group>"; };
+		D87FD44D2B89839A00304A38 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 		D8802F072A1BB4FF005AE9DA /* SidebarViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewToolbar.swift; sourceTree = "<group>"; };
 		D8802F092A1BBAC1005AE9DA /* IssueViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueViewToolbar.swift; sourceTree = "<group>"; };
 		D8802F0B2A1BBB7E005AE9DA /* ContentViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewToolbar.swift; sourceTree = "<group>"; };
@@ -157,6 +162,14 @@
 			path = UltimatePortfolioUITests;
 			sourceTree = "<group>";
 		};
+		D87FD44C2B89838600304A38 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				D87FD44D2B89839A00304A38 /* StoreView.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
 		D89DEAB529E603340040339D = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +194,7 @@
 		D89DEAC029E603340040339D /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				D87FD44C2B89838600304A38 /* Store */,
 				D8C2563B2A3140F8006AE93F /* Filters */,
 				D8C2563C2A314100006AE93F /* Issues */,
 				D8C2563D2A314106006AE93F /* Editing */,
@@ -191,6 +205,7 @@
 				D89DEAC129E603340040339D /* UltimatePortfolioApp.swift */,
 				D89DEAD329E702600040339D /* DataController.swift */,
 				D82A22C32AE2CFAF00AB926A /* DataController-Notifications.swift */,
+				D87FD44A2B897F3100304A38 /* DataController-StoreKit.swift */,
 				D8B5242629EA322C007E0C41 /* Colors.xcassets */,
 				D89DEAC529E603350040339D /* Assets.xcassets */,
 				D89DEAC829E603350040339D /* Preview Content */,
@@ -230,6 +245,7 @@
 			children = (
 				D89DEAC729E603350040339D /* UltimatePortfolio.entitlements */,
 				D89DEAD529E712790040339D /* Info.plist */,
+				D87FD4492B897D6B00304A38 /* Configuration.storekit */,
 				D89DEAD029E7000B0040339D /* Main.xcdatamodeld */,
 			);
 			path = Configuration;
@@ -482,6 +498,7 @@
 				D8B5242C29EA33E5007E0C41 /* AwardsView.swift in Sources */,
 				D8802F102A1BC2D7005AE9DA /* SmartFilterRow.swift in Sources */,
 				D80E8A402AD6E09600E3C8A5 /* SidebarViewModel.swift in Sources */,
+				D87FD44B2B897F3100304A38 /* DataController-StoreKit.swift in Sources */,
 				D82A22C42AE2CFAF00AB926A /* DataController-Notifications.swift in Sources */,
 				D89DEADB29E760C90040339D /* Filter.swift in Sources */,
 				D89DEAD229E7000C0040339D /* Main.xcdatamodeld in Sources */,
@@ -500,6 +517,7 @@
 				D8CBCF3629E998560006C930 /* IssueRow.swift in Sources */,
 				D8802F0A2A1BBAC1005AE9DA /* IssueViewToolbar.swift in Sources */,
 				D89DEAC229E603340040339D /* UltimatePortfolioApp.swift in Sources */,
+				D87FD44E2B89839A00304A38 /* StoreView.swift in Sources */,
 				D8BCF62D2AD6F4E900C82DF4 /* IssueRowViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
