@@ -11,6 +11,8 @@
 		D82A22C42AE2CFAF00AB926A /* DataController-Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82A22C32AE2CFAF00AB926A /* DataController-Notifications.swift */; };
 		D82E40C02ACA1E8E00F03939 /* UltimatePortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82E40BF2ACA1E8E00F03939 /* UltimatePortfolioUITests.swift */; };
 		D82E40C22ACA1E8E00F03939 /* UltimatePortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82E40C12ACA1E8E00F03939 /* UltimatePortfolioUITestsLaunchTests.swift */; };
+		D82F2BA22B8A8AE700B2560C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82F2BA12B8A8AE700B2560C /* AppDelegate.swift */; };
+		D82F2BA42B8A8AFE00B2560C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82F2BA32B8A8AFE00B2560C /* SceneDelegate.swift */; };
 		D86A12F929E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */; };
 		D86A12FB29E8C7E400AE35A7 /* Tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86A12FA29E8C7E400AE35A7 /* Tag-CoreDataHelpers.swift */; };
 		D87FD44B2B897F3100304A38 /* DataController-StoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87FD44A2B897F3100304A38 /* DataController-StoreKit.swift */; };
@@ -77,6 +79,8 @@
 		D82E40BF2ACA1E8E00F03939 /* UltimatePortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITests.swift; sourceTree = "<group>"; };
 		D82E40C12ACA1E8E00F03939 /* UltimatePortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D82E40C82ACA220600F03939 /* UltimatePortfolioUITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UltimatePortfolioUITests.xctestplan; sourceTree = "<group>"; };
+		D82F2BA12B8A8AE700B2560C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D82F2BA32B8A8AFE00B2560C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D86A12F829E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		D86A12FA29E8C7E400AE35A7 /* Tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		D87FD4492B897D6B00304A38 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
@@ -204,6 +208,8 @@
 				D8C2563A2A313EB2006AE93F /* Configuration */,
 				D89DEAC129E603340040339D /* UltimatePortfolioApp.swift */,
 				D89DEAD329E702600040339D /* DataController.swift */,
+				D82F2BA12B8A8AE700B2560C /* AppDelegate.swift */,
+				D82F2BA32B8A8AFE00B2560C /* SceneDelegate.swift */,
 				D82A22C32AE2CFAF00AB926A /* DataController-Notifications.swift */,
 				D87FD44A2B897F3100304A38 /* DataController-StoreKit.swift */,
 				D8B5242629EA322C007E0C41 /* Colors.xcassets */,
@@ -496,6 +502,7 @@
 				D8802F0E2A1BC0E4005AE9DA /* TagsMenuView.swift in Sources */,
 				D8B5242A29EA32CD007E0C41 /* Award.swift in Sources */,
 				D8B5242C29EA33E5007E0C41 /* AwardsView.swift in Sources */,
+				D82F2BA22B8A8AE700B2560C /* AppDelegate.swift in Sources */,
 				D8802F102A1BC2D7005AE9DA /* SmartFilterRow.swift in Sources */,
 				D80E8A402AD6E09600E3C8A5 /* SidebarViewModel.swift in Sources */,
 				D87FD44B2B897F3100304A38 /* DataController-StoreKit.swift in Sources */,
@@ -503,6 +510,7 @@
 				D89DEADB29E760C90040339D /* Filter.swift in Sources */,
 				D89DEAD229E7000C0040339D /* Main.xcdatamodeld in Sources */,
 				D86A12F929E8C68C00AE35A7 /* Issue-CoreDataHelpers.swift in Sources */,
+				D82F2BA42B8A8AFE00B2560C /* SceneDelegate.swift in Sources */,
 				D8B5242429EA2DBA007E0C41 /* Bundle-Decodable.swift in Sources */,
 				D89DEAD929E759150040339D /* DetailView.swift in Sources */,
 				D89DEAD429E702600040339D /* DataController.swift in Sources */,
