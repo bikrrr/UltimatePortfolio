@@ -99,5 +99,17 @@
 
 
 
+/* STORE */
+"Upgrade Today!" = "Javítson fel ma!";
+"Get the most out of the app" = "Használja ki az alkalmazást a legjobban";
+"Fetching offers…" = "Ajánlatok lekérése...";
+"Sorry, there was an error loading our store." = "Sajnáljuk, hiba történt az áruházunk betöltésekor.";
+"Try Again" = "Próbálja újra";
+"Restore Purchases" = "Vásárlások helyreállítása";
+"In-app purchases are disabled" = "Az alkalmazáson belüli vásárlások tiltva vannak";
+"You can't purchase the premium unlock because in-app purchases are disabled on this device.\n\nPlease ask whomever manages your device for assistance." = "Nem vásárolhatja meg a prémium feloldást, mert az alkalmazáson belüli vásárlások letiltva vannak ezen az eszközön.\n\nKérjük, keresse az eszközét kezelő személy segítségét.";
+
+
+
 /* DEBUG ONLY */
 "ADD SAMPLES" = "ADD SAMPLES";

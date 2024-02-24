@@ -99,5 +99,16 @@
 
 
 
+/* STORE */
+"Upgrade Today!" = "Upgrade Today!";
+"Get the most out of the app" = "Get the most out of the app";
+"Fetching offers…" = "Fetching offers…";
+"Sorry, there was an error loading our store." = "Sorry, there was an error loading our store.";
+"Try Again" = "Try Again";
+"Restore Purchases" = "Restore Purchases";
+"In-app purchases are disabled" = "In-app purchases are disabled";
+"You can't purchase the premium unlock because in-app purchases are disabled on this device.\n\nPlease ask whomever manages your device for assistance." = "You can't purchase the premium unlock because in-app purchases are disabled on this device.\n\nPlease ask whomever manages your device for assistance.";
+
+
 /* DEBUG ONLY */
 "ADD SAMPLES" = "ADD SAMPLES";
