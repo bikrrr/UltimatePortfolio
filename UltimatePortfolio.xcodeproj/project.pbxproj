@@ -49,7 +49,6 @@
 		D8ACEFD52A002F1A004658B9 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = D8ACEFD72A002F1A004658B9 /* Localizable.stringsdict */; };
 		D8ACEFD92A002FF7004658B9 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = D8ACEFDB2A002FF7004658B9 /* Awards.json */; };
 		D8B5242429EA2DBA007E0C41 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5242329EA2DBA007E0C41 /* Bundle-Decodable.swift */; };
-		D8B5242829EA322C007E0C41 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B5242629EA322C007E0C41 /* Colors.xcassets */; };
 		D8B5242A29EA32CD007E0C41 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5242929EA32CD007E0C41 /* Award.swift */; };
 		D8B5242C29EA33E5007E0C41 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B5242B29EA33E5007E0C41 /* AwardsView.swift */; };
 		D8BCF62B2AD6F3C300C82DF4 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BCF62A2AD6F3C300C82DF4 /* ContentViewModel.swift */; };
@@ -154,7 +153,6 @@
 		D8ACEFDA2A002FF7004658B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
 		D8ACEFDC2A002FFB004658B9 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
 		D8B5242329EA2DBA007E0C41 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
-		D8B5242629EA322C007E0C41 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		D8B5242929EA32CD007E0C41 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		D8B5242B29EA33E5007E0C41 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		D8BCF62A2AD6F3C300C82DF4 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
@@ -289,7 +287,6 @@
 				D82F2BA32B8A8AFE00B2560C /* SceneDelegate.swift */,
 				D82A22C32AE2CFAF00AB926A /* DataController-Notifications.swift */,
 				D87FD44A2B897F3100304A38 /* DataController-StoreKit.swift */,
-				D8B5242629EA322C007E0C41 /* Colors.xcassets */,
 				D89DEAC529E603350040339D /* Assets.xcassets */,
 				D89DEAC829E603350040339D /* Preview Content */,
 			);
@@ -490,7 +487,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					D82E40BC2ACA1E8E00F03939 = {
 						CreatedOnToolsVersion = 15.0;
@@ -552,7 +549,6 @@
 			files = (
 				D89DEACA29E603350040339D /* Preview Assets.xcassets in Resources */,
 				D89621632B896B2500D779AE /* Localizable.strings in Resources */,
-				D8B5242829EA322C007E0C41 /* Colors.xcassets in Resources */,
 				D8ACEFD92A002FF7004658B9 /* Awards.json in Resources */,
 				D89DEAC629E603350040339D /* Assets.xcassets in Resources */,
 				D8ACEFD52A002F1A004658B9 /* Localizable.stringsdict in Resources */,
@@ -845,6 +841,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -905,6 +902,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
