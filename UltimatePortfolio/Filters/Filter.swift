@@ -31,7 +31,7 @@ struct Filter: Identifiable, Hashable {
         minModificationDate: .now.addingTimeInterval(86400 * -7)
     )
 
-    func has(into hasher: inout Hasher) {
+    func hash(into hasher: inout Hasher) {
         hasher.combine(id)
     }
 
